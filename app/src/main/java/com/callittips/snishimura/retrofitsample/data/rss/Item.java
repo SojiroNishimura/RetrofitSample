@@ -22,7 +22,7 @@ public class Item {
     @Element(name = "link")
     private String mLink;
 
-    @Element(name = "description")
+    @Element(name = "description", required = false)
     private String mDescription;
 
     @Element(name = "date")
